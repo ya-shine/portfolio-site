@@ -72,6 +72,11 @@ li {
   background-color: #fff;
 }
 
+img {
+  width: 100%;
+  height: 300px;
+}
+
 .content-explanation {
   width: 100%;
   height: 300px;
@@ -150,4 +155,22 @@ footer {
 .fab {
   color: #fff;
   font-size: 2rem;
+}
+
+@media screen and (max-width:1288px) {
+  .section-content {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .content-text {
+    font-size: 12px;
+  }
 }
