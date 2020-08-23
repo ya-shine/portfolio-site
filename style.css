@@ -156,16 +156,3 @@ footer {
   color: #fff;
   font-size: 2rem;
 }
-
-@media screen and (max-width:1288px) {
-  .section-content {
-    width: 90%;
-    margin: 50px auto;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .content-text {
-    font-size: 12px;
-  }
-}
